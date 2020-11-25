@@ -9,6 +9,10 @@
   text-align: center;
   font-size: 14px;
 }
+
+.mrg-tb {
+  margin: 5px 0;
+}
 /* classi utility */
 
 /* navbar */
@@ -43,12 +47,12 @@
 display: inline-block;
 line-height: 18px;
 height: 18px;
-padding-right: 10px;
+padding-left: 5px;
 }
 
 .bl-section-one ul li i {
   width: 15px;
-  padding-right: 5px;
+  padding-right: 10px;
 }
 
 .bl-section-one .hamb-menu {
@@ -64,23 +68,79 @@ padding-right: 10px;
 /* jumbotron */
 .bl-section-two {
   background-image: url(../img/bg-home.jpg);
-  height: 400px;
   background-size: cover;
-  background-position: left bottom;
+  padding: 40px 0;
 }
 
 .bl-section-two .claim {
-  font-size: 20px;
   color: white;
-  padding-top: 20px;
 }
 
 .bl-section-two .claim h1 {
-  font-size: 2.5em;
   font-weight: bold;
 }
 
-.bl-section-two .form {
+.bl-section-two .form .form-inner {
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px 0px;
+}
+
+.bl-section-two .form-inner h4{
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.bl-section-two .form .form-inner input {
+  border: 1px #f0f0f0 solid;
+  width: 90%;
+  border-radius: 5px;
+  padding: 12px 5px;
+}
+
+.bl-section-two .form-inner .btn-light {
+  width: 90%;
+}
+
+.bl-section-two .form .form-inner .create {
+  background-color: #579aff;
+  color: #fff;
+}
+
+.bl-section-two .form .form-inner .google {
+  color: #a9a9a9;
   background-color: #fff;
-  height: 380px;
+  background-image: url(../img/google.png);
+  background-size: 6%;
+  background-repeat: no-repeat;
+  background-position: 5%;
+  box-shadow: 1px 1px 2px lightgrey;
+}
+
+.bl-section-two .form .form-inner div {
+  margin-top: 10px;
+  font-size: 10px;
+}
+/* /jumbotron */
+
+.bl-section-three {
+ background-color: #f3f5f9;
+}
+
+.bl-section-three .innovate {
+  padding: 20px;
+
+}
+
+.bl-section-three .img-cstr {
+  height: 100%;
+  line-height: 150px;
+}
+
+.bl-section-three .img-cstr img {
+  width: 150px;
+  vertical-align: middle;
+  margin: 30px 10px;
+  text-align: center;
 }
