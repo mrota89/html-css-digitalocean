@@ -11,6 +11,7 @@
 }
 /* classi utility */
 
+/* navbar */
 .bl-section-one {
   background-color: #fff;
   height: 80px;
@@ -57,4 +58,29 @@ padding-right: 10px;
 .bl-section-one .hamb-menu {
   color: #2285fd;
   font-size: 15px;
+}
+/* /navbar */
+
+/* jumbotron */
+.bl-section-two {
+  background-image: url(../img/bg-home.jpg);
+  height: 400px;
+  background-size: cover;
+  background-position: left bottom;
+}
+
+.bl-section-two .claim {
+  font-size: 20px;
+  color: white;
+  padding-top: 20px;
+}
+
+.bl-section-two .claim h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.bl-section-two .form {
+  background-color: #fff;
+  height: 380px;
 }
