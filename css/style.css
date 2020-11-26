@@ -142,6 +142,7 @@ padding-left: 5px;
 }
 /* /jumbotron */
 
+/* sezione customer */
 .bl-section-costumer {
  background-color: #f3f5f9;
 }
@@ -175,4 +176,87 @@ padding-left: 5px;
   .bl-section-costumer .img-cstr img {
     width: 160px;
   }
+}
+/* /sezione customer */
+
+/* sezione deploy */
+.bl-section-deploy .claim-deploy {
+  margin: 50px 0;
+}
+
+.bl-section-deploy .claim-deploy h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.bl-section-deploy .claim-deploy p {
+  font-size: 18px;
+  color: #ccc;
+  padding: 0 10px;
+}
+
+
+.bl-section-deploy .elenco-funzioni {
+  border-left: solid 1px #cccccc;
+  list-style-type: none;
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+
+.bl-section-deploy .elenco-funzioni li {
+  padding: 10px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .bl-section-deploy .elenco-funzioni {
+    margin: 30px 0 0 100px;
+  }
+
+  .bl-section-deploy .bl-box {
+    max-height: 120px;
+    margin: 30px 0;
+    padding-right: 20px;
+  }
+
+  .bl-section-deploy .claim-deploy p {
+    padding: 0 30px;
+  }
+
+}
+/* /sezione deploy */
+
+.bl-section-designed {
+  background-color: #f3f5f9;
+  margin: 50px 0;
+  font-size: 15px;
+}
+
+.bl-section-designed .container .claim-designed {
+  margin: 100px 0;
+}
+
+.bl-section-designed .claim-designed h2 {
+font-size: 23px;
+font-weight: bold;
+padding-bottom: 20px;
+}
+
+.bl-section-designed .claim-designed p {
+  padding: 0 20px;
+}
+
+.bl-section-designed img {
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+.bl-section-designed .under-img {
+  font-size: 13px;
+  padding: 0 50px;
+}
+
+
+.bl-section-designed .container i {
+  font-size: 50px;
+  font-weight: bold;
 }
