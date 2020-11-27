@@ -1,13 +1,11 @@
 /* classi utility */
-.button {
-  height: 30px;
-  line-height: 30px;
-  min-width: 60px;
-  padding: 0 10px;
-  border-radius: 5px;
-  display: inline-block;
-  text-align: center;
-  font-size: 14px;
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-blue {
+  border:solid #2285fd 0.5px;
+  color: #2285fd;
 }
 
 .mrg-tb {
@@ -38,6 +36,11 @@
 i:hover {
  color: #ccc;
 }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
 /* classi utility */
 
 /* navbar */
@@ -51,12 +54,6 @@ i:hover {
   font-size: 15px;
   vertical-align: top;
   font-weight: bold;
-}
-
-.bl-navbar .button-sign-up {
-  background-color: #fff;
-  border:solid #2285fd 0.5px;
-  color: #2285fd;
 }
 
 .bl-navbar .logo{
@@ -333,9 +330,13 @@ padding-bottom: 20px;
   background-color: #f3f5f9;
 }
 
+.bl-section-2nd-car h2 {
+  color: #031c4e;
+}
+
 .bl-section-2nd-car .bl-rockerbox {
   display: inline-block;
-  width: 50%;
+  width: 60%;
 }
 
 .bl-section-2nd-car .bl-rockerbox .bl-rockerbox-content {
@@ -354,6 +355,17 @@ padding-bottom: 20px;
   border-radius: 5px;
   vertical-align: middle;
 }
-
-
 /* /sezione 2nd carousel */
+
+/* sezione get started */
+.bl-section-get-started {
+  background-image: linear-gradient(0deg, #00209b , #0045c3);
+  color: #fff;
+  font-weight: bold;
+}
+/* /sezione get started */
+
+footer .bl-section-footer {
+  background-color: #031c4e;
+  color: #fff;
+}
