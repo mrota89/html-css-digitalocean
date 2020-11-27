@@ -21,6 +21,23 @@
 .underline {
   text-decoration: underline;
 }
+
+.bl-circle {
+  border: 2px solid #006aff;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 50px 0;
+}
+
+.bl-circle:hover {
+  background-color: #006aff;
+}
+
+i:hover {
+ color: #ccc;
+}
 /* classi utility */
 
 /* navbar */
@@ -249,8 +266,6 @@ padding-bottom: 20px;
 .bl-section-designed .bl-img-dev {
   width: 50%;
   display:inline-block;
-  /* line-height: 50%;
-  height: 100% */
 }
 
 .bl-section-designed .bl-img-dev img {
@@ -269,22 +284,9 @@ padding-bottom: 20px;
   margin-top: 15px;
 }
 
-.bl-section-designed .bl-circle {
-  border: 2px solid #006aff;
-  height: 10px;
-  width: 10px;
-  border-radius: 50%;
-  display: inline-block;
-  margin: 50px 0;
-}
 
-.bl-section-designed .bl-circle:hover {
-  background-color: #006aff;
-}
 
-.bl-section-designed i:hover {
- color: #ccc;
-}
+
 
 /* /sezione designed */
 
@@ -325,3 +327,33 @@ padding-bottom: 20px;
    text-align: right;
  }
 /* sezione service regions */
+
+/* sezione 2nd carousel */
+.bl-section-2nd-car {
+  background-color: #f3f5f9;
+}
+
+.bl-section-2nd-car .bl-rockerbox {
+  display: inline-block;
+  width: 50%;
+}
+
+.bl-section-2nd-car .bl-rockerbox .bl-rockerbox-content {
+  vertical-align: middle;
+  width: 80%;
+  display: inline-block;
+}
+
+.bl-section-2nd-car .bl-rockerbox .bl-rockerbox-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.bl-section-2nd-car .bl-rockerbox i {
+  font-size: 20px;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+
+
+/* /sezione 2nd carousel */
