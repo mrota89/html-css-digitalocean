@@ -6,30 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Digital Ocean</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/digital-ocean-font-em.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
-  <body>
 
+  <body>
     <header>
       <!-- navbar -->
-      <div class="bl-navbar">
+      <div class="bl-navbar darkblue">
         <div class="container">
-          <nav class="navbar row">
-
-            <ul class="left col-xs-2 col-md-2">
+          <nav class="row">
+            <ul class="col-xs-2 col-md-2 font-0-8em-md">
              <li><img class="logo" src="img/logo-ocean.webp" alt=""></li>
             </ul>
 
-            <ul class="left col-md-4 col-md-offset-1 hidden-xs hidden-sm">
+            <ul class="col-md-4 col-md-offset-1 hidden-xs hidden-sm font-0-8em-md">
               <li><a href="#">Products<i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
               <li><a href="#">Costumer</a></li>
               <li><a href="#">Community<i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
               <li><a href="#">Pricing</a></li>
             </ul>
 
-            <ul class="right col-md-4 col-md-offset-1 col-lg-3 col-lg-offset-2 hidden-xs hidden-sm">
+            <ul class="col-md-4 col-md-offset-1 col-lg-3 col-lg-offset-2 hidden-xs hidden-sm font-0-8em-md">
              <li><a href="#">Docs</a></li>
              <li><a href="#">Support<i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
              <li><a href="#">Login</a></li>
@@ -45,39 +44,37 @@
       <!-- /navbar -->
 
       <!-- jumbotron -->
-      <div class="bl-jumbotron">
+      <div class="bl-jumbotron pad-40">
         <div class="container">
-          <div class="row jumbo">
-            <div class="claim col-xs-12 col-sm-6 ">
-              <h1>The simplest cloud platform for developers & teams</h1>
-              <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
+          <div class="row">
+            <div class="claim col-xs-12 col-sm-7">
+              <h1 class="font-bold">The simplest cloud platform for developers & teams</h1>
+              <p class="font-1-2em-xs">Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
             </div>
-
-            <div class="form col-xs-12 col-sm-6 ">
-              <div class="form-inner">
-                <h4>
-                  Deploy your app in a seconds. <br>
+            <div class="form col-xs-12 col-sm-5 ">
+              <div class="form-content">
+                <div class="font-1-2em-xs font-bold" >
+                  Deploy your app in seconds.<br>
                   <span class="color-lightblue">Get started now.</span>
-                </h4>
+                </div>
                 <form class="bl-form" action="index.html" method="post">
-                  <input  class="mrg-tb" type="text" name="Email"  placeholder="Email"><br>
-                  <input  type="password" placeholder="Password"><br>
+                  <input  class="mrg-tb font-0-8em-xs" type="text" name="Email"  placeholder="Email"><br>
+                  <input  class="font-0-8em-xs" type="password" placeholder="Password"><br>
                   <button type="button" class="btn btn-light create mrg-tb">Create your account</button>
                   <button type="button" class="btn btn-light google">Sign up with google</button>
                 </form>
-                <div>By signing up you agree to the <a class="color-lightblue underline" href="#">Term of Service.</a></div>
+                <div class="agree font-0-7em-xs">By signing up you agree to the <a class="color-lightblue underline" href="#">Term of Service.</a></div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
       <!-- /jumbotron -->
 
-      <!-- sezione bottom header -->
-      <div class="bl-section-costumer">
+      <!-- sezione costumer -->
+      <div class="bl-section-costumer pad-20">
         <div class="container text-center">
-            <div class="innovate text-uppercase ">
+            <div class="pad-top-10 text-uppercase font-0-8em-xs">
               innovate businesses trust digitalocean
             </div>
             <div class="row img-cstr">
@@ -93,79 +90,81 @@
 
               <img src="img/splunk.webp"  alt="">
             </div>
-            <div class="innovate color-lightblue">
-              <a href="#">View customer stories ></a>
+            <div class="font-0-9em-xs font-0-7em-sm">
+              <a class="li-ar" href="#"><span>View customer stories</span></a>
             </div>
           </div>
         </div>
-      <!-- /sezione bottom header -->
+      <!-- /sezione costumer -->
     </header>
 
     <main>
       <!-- sezione deploy -->
-      <div class="bl-section-deploy">
+      <div class="bl-section-deploy pad-40">
         <div class="container">
           <div class="claim-deploy text-center">
-            <h2>Deploy and scale seamlessly</h2>
-            <p>Our optimized configuration process saves
-              your team time when running and scaling
-              distributed applications, Al & machine learning
-              workloads, hosted services, client websites, or
-              Cl/CD environments.
+            <h2 class="font-bold">Deploy and scale seamlessly</h2>
+            <p class="font-1em-xs color-ccc">
+              Our optimized configuration process saves your team time when running and scaling distributed applications, Al & machine learning workloads, hosted services, client websites, or Cl/CD environments.
             </p>
           </div>
-          <div class="row center-block">
-            <div class="col-xs-12 col-sm-4">
+            <div class="row elenco center-block-sm">
+              <div class="col-xs-12 col-sm-4">
+                <ul class="elenco-funzioni">
+                  <li class="font-1em-xs">Deploy</li>
+                  <li class="font-1em-xs">Manage</li>
+                  <li class="font-1em-xs">Secure</li>
+                  <li class="font-1em-xs">Scale</li>
+                  <li class="font-1em-xs">Monitor</li>
+                </ul>
 
-              <ul class="elenco-funzioni">
-                <li>Deploy</li>
-                <li>Manage</li>
-                <li>Secure</li>
-                <li>Scale</li>
-                <li>Monitor</li>
-              </ul>
-
-            </div>
-            <div class="col-xs-12 col-sm-8">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="bl-box col-xs-12 col-sm-6">
-                    <img src="img/app-platform.svg" class="img-responsive" alt="">
-                    <h4>Cluster deployments</h4>
-                    Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.
+              </div>
+              <div class="col-xs-12 col-sm-7">
+                <div class="row icone center-block-sm">
+                  <div class="bl-box col-xs-12 col-sm-6 mrg-tb">
+                    <div class="box-content">
+                      <img src="img/app-platform.svg" class="img-responsive" alt="">
+                      <h3 class="font-bold">Cluster deployments</h3>
+                      <p>Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</p>
+                    </div>
                   </div>
 
-                  <div class="bl-box col-xs-12 col-sm-6">
-                    <img src="img/flexible-compute-types.svg" class="img-responsive" alt="">
-                    <h4>Optimized compute types</h4>
-                    Get the compute resources you need with Standard or Optimized Droplets.
+                  <div class="bl-box col-xs-12 col-sm-6 mrg-tb">
+                    <div class="box-content">
+                      <img src="img/flexible-compute-types.svg" class="img-responsive" alt="">
+                      <h3 class="font-bold">Optimized compute types</h3>
+                      <p>Get the compute resources you need with Standard or Optimized Droplets.</p>
+                    </div>
                   </div>
 
-                  <div class="bl-box col-xs-12 col-sm-6">
-                    <img src="img/click-app-marketplace.svg" class="img-responsive" alt="">
-                    <h4>One-click apps</h4>
-                    Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker, and more.
+                  <div class="bl-box col-xs-12 col-sm-6 mrg-tb">
+                    <div class="box-content">
+                      <img src="img/click-app-marketplace.svg" class="img-responsive" alt="">
+                      <h3 class="font-bold">One-click apps</h3>
+                      <p>Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker, and more.</p>
+                    </div>
                   </div>
 
-                  <div class="bl-box col-xs-12 col-sm-6">
-                    <img src="img/kubernetes-in-minutes.svg" class="img-responsive" alt="">
-                    <h4>Global availability</h4>
-                    Deploy to any of our data center regions around the world.
+                  <div class="bl-box col-xs-12 col-sm-6 mrg-tb">
+                    <div class="box-content">
+                      <img src="img/kubernetes-in-minutes.svg" class="img-responsive" alt="">
+                      <h3 class="font-bold">Global availability</h3>
+                      <p>Deploy to any of our data center regions around the world.</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
         </div>
       </div>
       <!-- /sezione deploy -->
 
       <!-- sezione designed for developers -->
-      <div class="bl-section-designed text-center">
+      <div class="bl-section-designed text-center pad-top-40">
         <div class="container">
           <div class="claim-designed">
-            <h2>Designed for developers</h2>
-            <p>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
+            <h2 class="font-bold ">Designed for developers</h2>
+            <p class="font-1em-xs color-ccc">Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
           </div>
 
           <div class="bl-img-dev">
@@ -174,45 +173,41 @@
             <i class="fa fa-chevron-right hidden-xs" aria-hidden="true"></i>
           </div>
 
-          <p class="under-img">Create compute server in 55 second or less</p>
-
-          <div class="bl-circle"></div>
-
-          <div class="bl-circle"></div>
-
-          <div class="bl-circle"></div>
-
-          <div class="bl-circle"></div>
-
+          <div class="create-server-claim font-0-8em-xs font-0-7em-sm">Create compute server in 55 second or less</div>
+          <div class="circle-box">
+            <div class="bl-circle"></div>
+            <div class="bl-circle"></div>
+            <div class="bl-circle"></div>
+            <div class="bl-circle"></div>
+          </div>
         </div>
       </div>
       <!-- /sezione designed for developers -->
 
       <!-- sezione features -->
-      <div class="bl-section-features mrg-tb">
+      <div class="bl-section-features pad-40">
         <div class="container">
-          <h2 class="text-center">The features your business needs</h2>
+          <h2 class="text-center font-bold">The features your business needs</h2>
 
           <div class="row center-block">
-            <div class="col-xs-12 col-sm-4">
+            <div class="col-xs-12 col-sm-4 mrg-tb">
               <img src="img/predictable-pricing.svg" alt="">
-              <h4>Predictable pricing</h4>
+              <h3 class="font-bold">Predictable pricing</h3>
               <p>Leave complex pricing structures behind. Always know what you'll pay per month with a flat, industry-leading pricing structure.</p>
-              <a href="#"><span>Pricing ></span></a>
+              <a class="color-lightblue font-0-8em-xs font-0-7em-sm" href="#">Pricing ></a>
             </div>
 
-            <div class="col-xs-12 col-sm-4">
+            <div class="col-xs-12 col-sm-4 mrg-tb">
               <img src="img/world-class-service.svg" alt="">
-              <h4>World-class service</h4>
+              <h3 class="font-bold">World-class service</h3>
               <p>Free round-the-clock technical support for all customers. You'll feel the love.</p>
-              <a href="#"><span>Support ></span></a>
+              <a class="color-lightblue font-0-8em-xs font-0-7em-sm" href="#">Support ></a>
             </div>
-
-            <div class="col-xs-12 col-sm-4">
+            <div class="col-xs-12 col-sm-4 mrg-tb">
               <img src="img/reliable-platform.svg" alt="">
-              <h4>Reliable platform</h4>
+              <h3 class="font-bold">Reliable platform</h3>
               <p>More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.</p>
-              <a href="#"><span>Security ></span></a>
+              <a class="color-lightblue font-0-8em-xs font-0-7em-sm" href="#">Security ></a>
             </div>
           </div>
         </div>
@@ -220,133 +215,122 @@
       <!-- /sezione features -->
 
       <!-- sezione service regions -->
-      <div class="bl-section-regions mrg-tb">
+      <div class="bl-section-regions pad-40">
         <div class="container">
-          <h2 class=text-center>Service your customers around the world from 12 regions</h2>
-          <div class="row center-block">
-            <div class="col-xs-12 col-md-6 bl-left">
-
-              <ul class="one">
-                <li>AMS2</li>
+          <h2 class="text-center font-bold font-1-6em-sm">Service your customers around the world from 12 regions</h2>
+          <div class="row center-block-sm">
+            <div class="col-xs-12 col-md-6">
+              <ul class="box-country-speed font-0-9em-xs font-0-7em-sm">
+                <li class="font-bold">AMS2</li>
                 <li>Amsterdam, Netherlands</li>
-                <li><a href="#">Test Speed ></a></li>
+                <li ><a class="li-ar" href="#">Test Speed</a></li>
               </ul>
 
-              <ul class="two">
-                <li>AMS3</li>
+              <ul class="box-country-speed font-0-9em-xs font-0-7em-sm">
+                <li class="font-bold">AMS3</li>
                 <li>Amsterdam, Netherlands</li>
-                <li><a href="#">Test Speed ></a></li>
+                <li ><a class="li-ar" href="#">Test Speed</a></li>
               </ul>
 
-              <ul class="three">
-                <li>BLR1</li>
+              <ul class="box-country-speed font-0-9em-xs font-0-7em-sm">
+                <li class="font-bold">BLR1</li>
                 <li>Bangalore, India</li>
-                <li><a href="#">Test Speed ></a></li>
+                <li ><a class="li-ar" href="#">Test Speed</a></li>
               </ul>
 
-              <ul class="four">
-                <li>FRA1</li>
+              <ul class="box-country-speed font-0-9em-xs font-0-7em-sm">
+                <li class="font-bold">FRA1</li>
                 <li>Frankfurt, German</li>
-                <li><a href="#">Test Speed ></a></li>
+                <li ><a class="li-ar" href="#">Test Speed</a></li>
               </ul>
 
-              <ul class="five">
-                <li>LON1</li>
+              <ul class="box-country-speed font-0-9em-xs font-0-7em-sm">
+                <li class="font-bold">LON1</li>
                 <li>London, UK</li>
-                <li><a href="#">Test Speed ></a></li>
+                <li ><a class="li-ar" href="#">Test Speed</a></li>
               </ul>
 
-              <ul class="six">
-                <li>NYC1</li>
+              <ul class="box-country-speed font-0-9em-xs font-0-7em-sm">
+                <li class="font-bold">NYC1</li>
                 <li>New York, USA</li>
-                <li><a href="#">Test Speed ></a></li>
+                <li ><a class="li-ar" href="#">Test Speed</a></li>
               </ul>
             </div>
 
             <div class="col-xs-12 col-md-6 bl-right">
-
-              <ul class="one">
-                <li>AMS2</li>
+              <ul class="box-country-speed font-0-9em-xs font-0-7em-sm">
+                <li class="font-bold">AMS2</li>
                 <li>Amsterdam, Netherlands</li>
-                <li><a href="#">Test Speed ></a></li>
+                <li ><a class="li-ar" href="#">Test Speed</a></li>
               </ul>
 
-              <ul class="two">
-                <li>AMS3</li>
+              <ul class="box-country-speed font-0-9em-xs font-0-7em-sm">
+                <li class="font-bold">AMS3</li>
                 <li>Amsterdam, Netherlands</li>
-                <li><a href="#">Test Speed ></a></li>
+                <li><a class="li-ar" href="#">Test Speed</a></li>
               </ul>
 
-              <ul class="three">
-                <li>BLR1</li>
+              <ul class="box-country-speed font-0-9em-xs font-0-7em-sm">
+                <li class="font-bold">BLR1</li>
                 <li>Bangalore, India</li>
-                <li><a href="#">Test Speed ></a></li>
+                <li><a class="li-ar" href="#">Test Speed</a></li>
               </ul>
 
-              <ul class="four">
-                <li>FRA1</li>
+              <ul class="box-country-speed font-0-9em-xs font-0-7em-sm">
+                <li class="font-bold">FRA1</li>
                 <li>Frankfurt, German</li>
-                <li><a href="#">Test Speed ></a></li>
+                <li><a class="li-ar" href="#">Test Speed</a></li>
               </ul>
 
-              <ul class="five">
-                <li>LON1</li>
+              <ul class="box-country-speed font-0-9em-xs font-0-7em-sm">
+                <li class="font-bold">LON1</li>
                 <li>London, UK</li>
-                <li><a href="#">Test Speed ></a></li>
+                <li><a class="li-ar" href="#">Test Speed</a></li>
               </ul>
 
-              <ul class="six">
-                <li>NYC1</li>
+              <ul class="box-country-speed font-0-9em-xs font-0-7em-sm">
+                <li class="font-bold">NYC1</li>
                 <li>New York, USA</li>
-                <li><a href="#">Test Speed ></a></li>
+                <li><a class="li-ar" href="#">Test Speed</a></li>
               </ul>
             </div>
-
           </div>
-
         </div>
-
       </div>
       <!-- /sezione service regions -->
 
-      <!-- sezione secondo carousel -->
-      <div class="bl-section-2nd-car text-center">
+      <!-- sezione rockerbox -->
+      <div class="bl-section-rockerbox text-center pad-top-40">
         <div class="container">
-
-          <h2>Development teams love DigitalOcean</h2>
+          <h2 class="font-bold">Development teams love DigitalOcean</h2>
 
           <div class="bl-rockerbox">
             <i class="fa fa-chevron-left hidden-xs" aria-hidden="true"></i>
             <div class="bl-rockerbox-content">
-              <img class="img-responsive" src="img/rockerbox.png" alt="">
+              <img class="text-center" src="img/rockerbox.png" alt="">
               <ul>
-                <li>"We have been able to make scaling the technical infrastructure of our business cost effective and efficient!"</li>
-                <li>Rick O'Toole</li>
-                <li>Co-Founder and CTO</li>
+                <li class="sotto-titolo color-ccc  font-0-9em-sm">"We have been able to make <br class="show-xs">scaling the technical <br class="show-md"> infrastructure of our business cost effective <br class="show-sm hidden-xs">and efficient."</li>
+                <li class="font-bold font-0-7em-sm">Rick O'Toole</li>
+                <li class="font-0-7em-sm">Co-Founder and CTO</li>
               </ul>
-              <a href="#">Read story ></a>
+              <a class="li-ar color-lightblue font-0-8em-xs" href="#">Read story</a>
             </div>
             <i class="fa fa-chevron-right hidden-xs" aria-hidden="true"></i>
-            <div class="circle-container">
-              <div class="bl-circle"></div>
 
+            <div class="circle-box">
               <div class="bl-circle"></div>
-
               <div class="bl-circle"></div>
-
               <div class="bl-circle"></div>
             </div>
-
           </div>
         </div>
-
       </div>
-      <!-- /sezione secondo carousel -->
+      <!-- /sezione rockerbox -->
 
       <!-- sezione get started -->
-      <div class="bl-section-get-started text-center">
+      <div class="bl-section-get-started text-center pad-40">
         <div class="container">
-          <h2>Get Started</h2>
+          <h2 class="font-bold pad-p-xs">Get Started now.</h2>
           <div class="btn btn-default btn-blue">Create your account</div>
         </div>
       </div>
@@ -354,14 +338,14 @@
     </main>
 
     <footer>
-      <div class="bl-section-footer">
+      <div class="bl-section-footer pad-section-40">
         <div class="container">
           <div class="row">
-            <div class="col-xs-12 col-md-4 left">
-              <img src="img/logo-footer.svg" alt="">
-              <p><i class="fa fa-copyright" aria-hidden="true"></i>2018 DigitalOcean,LCC. All rights reserved.</p>
-              <span>Proudly Made in NY</span>
-              <div class="social-icon">
+            <div class="col-xs-12 col-md-4 bl-fleft">
+              <img class="logo" src="img/logo-footer.svg" alt="">
+              <div class="font-0-9em-xs bl-cr"><i class="fa fa-copyright" aria-hidden="true"></i>2018 DigitalOcean,LCC. All rights reserved.</div>
+              <div class="font-0-8em-xs proud">Proudly Made in NY</div>
+              <div class="social-icon font-1em-xs">
                 <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                 <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
                 <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -370,12 +354,11 @@
               </div>
             </div>
 
-            <div class="col-xs-12 col-md-8 right">
-              <div class="container-fluid">
+            <div class="col-xs-12 col-md-8 bl-fright">
                 <div class="row">
                   <div class="col-xs-12 col-sm-6 col-md-3 bl-footer-box">
-                    <h4>Company</h4>
-                      <ul>
+                    <div class="font-1em-xs bl-ft-head">Company</div>
+                      <ul class="color-ccc">
                         <li><a href="#">About</a></li>
                         <li><a href="#">Leadership</a></li>
                         <li><a href="#">Link</a></li>
@@ -390,8 +373,8 @@
                   </div>
 
                   <div class="col-xs-12 col-sm-6 col-md-3 bl-footer-box">
-                    <h4>Products</h4>
-                      <ul>
+                    <div class="font-1em-xs bl-ft-head">Products</div>
+                      <ul class="color-ccc">
                         <li><a href="#">Droplets</a></li>
                         <li><a href="#">Spaces</a></li>
                         <li><a href="#">Kubernetes</a></li>
@@ -407,8 +390,8 @@
                   </div>
 
                   <div class="col-xs-12 col-sm-6 col-md-3 bl-footer-box">
-                    <h4>Community</h4>
-                      <ul>
+                    <div class="font-1em-xs bl-ft-head">Community</div>
+                      <ul class="color-ccc">
                         <li><a href="#">Tutorials</a></li>
                         <li><a href="#">Meetups</a></li>
                         <li><a href="#">Q&A</a></li>
@@ -423,26 +406,28 @@
                   </div>
 
                   <div class="col-xs-12 col-sm-6 col-md-3 bl-footer-box">
-                    <h4>Support</h4>
-                      <ul>
+                    <div class="font-1em-xs bl-ft-head">Support</div>
+                      <ul class="color-ccc">
                         <li><a href="#">Contact Support</a></li>
                         <li><a href="#">Faq</a></li>
                         <li><a href="#">Network status</a></li>
                       </ul>
                   </div>
-                  </div>
-
-
-              </div>
-
+                </div>
             </div>
 
+            <div class="squaletto">
+              <div class="img-shark">
+                <img src="img/fish.png" alt="">
+              </div>
+              <div class="fumetto">
+                <div class="font-0-7em-xs">Can I help answer any questions you have<br>about DigitalOcean?</div>
+              </div>
+              <i class="fa fa-caret-right" aria-hidden="true"></i>
+            </div>
           </div>
         </div>
       </div>
     </footer>
-
-
-
   </body>
 </html>
