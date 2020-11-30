@@ -23,6 +23,9 @@ li {
 .font-1-2em-xs {
   font-size: 1.2em;
 }
+.font-1-1em-xs {
+  font-size: 1.1em;
+}
 .font-1em-xs {
   font-size: 1em;
 }
@@ -53,6 +56,9 @@ li {
   }
   .font-1-6em-sm {
     font-size: 1.6em;
+  }
+  .font-0-9em-sm {
+    font-size: 0.9em;
   }
   .font-1em-sm {
     font-size: 1em;
