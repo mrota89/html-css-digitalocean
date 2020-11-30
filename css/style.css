@@ -1,4 +1,8 @@
 /* classi utility */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
 .bg-grey {
 background-color: #f3f5f9;
 }
@@ -8,6 +12,12 @@ background-color: #f3f5f9;
 }
 .bg-white {
   background-color: #fff;
+}
+.bg-blue {
+  background-color: #031c4e;
+}
+.color-lightblue {
+  color: #006aff;
 }
 .font-white {
 color: #fff;
@@ -27,14 +37,13 @@ color: #fff;
 .pad-top-40 {
   padding-top: 40px;
 }
-.pad-top-10 {
-  padding-top: 10px;
-}
-.mrg-tb {
+.mrg-tb-12 {
   margin: 12px 0;
 }
 a:hover {
   color: #1dcbff;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #031c4e;
 }
 .container [class*="hover-blue"]:hover {
  color: #031c4e;
@@ -50,12 +59,6 @@ a:hover {
   color: #3587ff;
   font-size: 14px
 }
-.color-lightblue {
-  color: #006aff;
-}
-.underline {
-  text-decoration: underline;
-}
 .bl-circle {
   border: 2px solid #006aff;
   height: 10px;
@@ -68,36 +71,21 @@ a:hover {
   background-color: #006aff;
   cursor: pointer;
 }
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-.li-ar::after {
+.link-arrow::after {
   position: relative;
   margin-left: 8px;
-  top: 2px;
+  top: 4px;
   content: "›";
-  font-size: 24px;
+  font-size: 28px;
 }
-/* classi utility */
+/* /classi utility */
 
 /* navbar */
 header .bl-navbar {
   height: 60px;
   line-height: 60px;
 }
-header .bl-navbar ul li .logo{
-  width: 150px;
-  vertical-align: bottom;
-}
-header .bl-navbar .row ul li .fa-angle-down {
-  font-size: 15px;
-  vertical-align: top;
-  font-weight: bold;
-  width: 15px;
-  padding-right: 10px;
-}
+
 header .bl-navbar .row > ul {
   line-height: 60px;
 }
@@ -108,6 +96,17 @@ padding-left: 5px;
 }
 header .bl-navbar .row > ul li a {
   color: #0e2555;
+}
+header .bl-navbar ul li .logo{
+  width: 150px;
+  vertical-align: bottom;
+}
+header .bl-navbar ul li .fa-angle-down {
+  font-size: 15px;
+  vertical-align: top;
+  font-weight: bold;
+  width: 15px;
+  padding-right: 10px;
 }
 header .bl-navbar .hamb-menu {
   text-align: right;
@@ -153,6 +152,9 @@ header .bl-jumbotron .form .form-content .agree {
 /* /jumbotron */
 
 /* sezione customer */
+header .bl-section-costumer {
+  padding: 20px 0;
+}
 header .bl-section-costumer .innovate,.link-stories {
   padding: 15px 0;
 }
@@ -179,18 +181,16 @@ main .bl-section-deploy .claim-deploy {
   margin: 50px 0;
 }
 main .bl-section-deploy .claim-deploy p {
-  padding: 0 20px;
+  padding: 0 5px;
 }
 main .bl-section-deploy .elenco .elenco-funzioni {
   margin-bottom: 10px;
 }
-
 main .bl-section-deploy .elenco .elenco-funzioni li>div {
   border-left: solid 1px #ccc;
   padding: 10px 10px;
   width: max-content;
 }
-
 
 @media screen and (min-width: 768px) {
   main .bl-section-deploy {
@@ -212,7 +212,6 @@ main .bl-section-deploy .elenco .elenco-funzioni li>div {
 }
 
 @media screen and (min-width: 992px) {
-
   main .bl-section-deploy .bl-box {
     max-height: 120px;
   }
@@ -220,6 +219,10 @@ main .bl-section-deploy .elenco .elenco-funzioni li>div {
 /* /sezione deploy */
 
 /* sezione designed */
+main .bl-section-designed .claim-designed p {
+  padding: 0 15px;
+}
+
 main .bl-section-designed .bl-img-dev {
   width: 70%;
   display:inline-block;
@@ -229,19 +232,18 @@ main .bl-section-designed .bl-img-dev img {
   vertical-align: middle;
   width: 70%;
 }
-main .bl-section-designed .circle-box {
-  padding-top: 20px;
-  display: inline-block;
-}
 main .bl-section-designed .bl-img-dev i {
   font-size: 30px;
   vertical-align: middle;
   color: #7d7d7d;
   padding: 0 5px;
 }
-
 main .bl-section-designed .create-server-claim {
   padding: 10px 60px;
+}
+main .bl-section-designed .circle-box {
+  padding-top: 20px;
+  display: inline-block;
 }
 /* /sezione designed */
 
@@ -270,15 +272,15 @@ main .bl-section-regions .box-country-speed>li:last-child {
 /* sezione service regions */
 
 /* sezione rockerbox */
-main .bl-section-rockerbox .bl-rockerbox i {
-  font-size: 20px;
-  border-radius: 5px;
-  vertical-align: middle;
-}
 main .bl-section-rockerbox .bl-rockerbox {
   display: inline-block;
   width: 80%;
   margin-top: 50px;
+}
+main .bl-section-rockerbox .bl-rockerbox i {
+  font-size: 20px;
+  border-radius: 5px;
+  vertical-align: middle;
 }
 main .bl-section-rockerbox .bl-rockerbox .bl-rockerbox-content {
   vertical-align: middle;
@@ -289,7 +291,7 @@ main .bl-section-rockerbox .bl-rockerbox .bl-rockerbox-content {
 main .bl-section-rockerbox .bl-rockerbox .bl-rockerbox-content img {
   width: 100%;
 }
-main .bl-section-rockerbox .bl-rockerbox .bl-rockerbox-content ul .sotto-titolo{
+main .bl-section-rockerbox .bl-rockerbox .bl-rockerbox-content ul .sotto-titolo {
   padding: 20px 0;
 }
 
@@ -313,14 +315,10 @@ main .bl-section-rockerbox .bl-rockerbox .bl-rockerbox-content ul .sotto-titolo{
 }
 /* /rockerbox */
 
-/* sezione get started */
-main .bl-section-get-started {
-  font-weight: bold;
-}
-/* /sezione get started */
-
-footer .bl-section-footer {
-  background-color: #031c4e;
+/* footer */
+footer .bl-section-footer .logo {
+  width: 8%;
+  padding-bottom: 10px;
 }
 footer .bl-section-footer .bl-fleft .proud {
   color: #586685;
@@ -331,11 +329,6 @@ footer .bl-section-footer .bl-fright .bl-footer-box a {
 footer .bl-section-footer .bl-fright .bl-footer-box a:hover {
   color: #1dcbff;
 }
-
-footer .bl-section-footer .logo {
-  width: 8%;
-  padding-bottom: 10px;
-}
 footer .bl-section-footer .bl-fleft, .bl-fright {
   padding-top: 30px;
 }
@@ -343,6 +336,14 @@ footer .bl-section-footer .bl-fleft .social-icon i{
   padding: 10px 8px 0 0px;
 }
 
+@media screen and (min-width: 992px) {
+  footer .bl-section-footer .logo {
+    width: 12%;
+  }
+}
+/* /footer */
+
+/* assistente */
 .fumetto {
   position: fixed;
   left: 10px;
@@ -352,9 +353,6 @@ footer .bl-section-footer .bl-fleft .social-icon i{
   width: 50px;
   margin-bottom: 10px;
 }
-
-
-
 .speech-bubble {
   position: relative;
 	background-color: white;
@@ -362,9 +360,9 @@ footer .bl-section-footer .bl-fleft .social-icon i{
   width: max-content;
   padding: 5px;
   margin-bottom: 20px;
+  display: none;
 }
-
-footer .bl-section-footer .speech-bubble:after {
+ .speech-bubble:after {
 	content: '';
 	position: absolute;
 	right: 0;
@@ -377,19 +375,24 @@ footer .bl-section-footer .speech-bubble:after {
 	margin-top: -7px;
 	margin-right: -7px;
 }
+.fumetto:hover .speech-bubble {
+  display: block;
+}
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .speech-bubble {
+    display: none;
+  }
+  .fumetto:hover .speech-bubble {
     display: inline-block;
   }
-
   .fumetto {
     bottom: 10px;
     left: auto;
     right: 10px;
   }
-
   .fumetto img {
     margin: 0 0 15px 10px;
   }
 }
+/* /assistente */
