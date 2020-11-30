@@ -127,11 +127,11 @@ header .bl-jumbotron .form .form-content {
 }
 header .bl-jumbotron .form .form-content input {
   border: 1px #f0f0f0 solid;
-  width: 90%;
   border-radius: 5px;
   padding: 12px 5px;
+  margin-top: 5px;
 }
-header .bl-jumbotron .form-content .btn-light {
+header .bl-jumbotron .form-content .btn-light, input {
   width: 90%;
 }
 header .bl-jumbotron .form .form-content .create {
@@ -166,7 +166,7 @@ header .bl-section-costumer .img-cstr img {
 
 @media screen and (min-width: 768px) {
   header .bl-section-costumer .img-cstr img {
-    width: 90px;
+    width: 95px;
   }
 }
 @media screen and (min-width: 992px) {
