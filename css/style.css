@@ -83,10 +83,9 @@ a:hover {
 /* navbar */
 header .bl-navbar {
   height: 60px;
-  line-height: 60px;
 }
 
-header .bl-navbar .row > ul {
+header .bl-navbar, .bl-navbar .row > ul {
   line-height: 60px;
 }
 header .bl-navbar .row > ul li {
